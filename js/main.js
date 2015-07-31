@@ -22,10 +22,13 @@ $(document).ready(function(){
 	// 3 points of interest
 	var cougarRock = L.marker([46.740946, -121.918186]);
 	cougarRock.addTo(map);
+	cougarRock.bindPopup("<b>Cougar Rock</b><br>A Great Place to Camp!").openPopup();
 	
 	var reflectionLake = L.marker([46.769683, -121.730270]);
 	reflectionLake.addTo(map);
+	reflectionLake.bindPopup("<b>Reflection Lake</b><br>Go for a Swim!").openPopup()
 	
 	var sprayPark = L.marker([46.915509, -121.824484]);
 	sprayPark.addTo(map);
+	sprayPark.bindPopup("<b>Spray Park</b><br>Have a Picnic!").openPopup()
 });

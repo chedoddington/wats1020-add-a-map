@@ -4,15 +4,17 @@
 
 #map-container { height: 180px; }
 
+.item {
+	height: 500px;
+}
 
+dd {
+	color: green;
+}
 
-
-
-
-
-
-
-
+dt {
+	font-size: 15px;
+}
 
 
 
