@@ -8,6 +8,11 @@
 	height: 500px;
 }
 
+.item h3 {
+	color: white;
+	background-color: black;
+}
+
 dd {
 	color: green;
 }
